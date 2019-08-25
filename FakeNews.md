@@ -8,15 +8,19 @@
 
 > Fake news'em nazywamy każdy fałszywy artykuł lub informację rozpowszechnianą w mediach, bez względu na intencję jej powstania.
   
- Intencjonalność jest bardzo istotna w tej defincji, ponieważ fałszywą infromację możę tworzyć i rozpowszechniać każdy. W pełni świadomy człowiek bądz instytucja ze ściśle wytyczonym celem, albo nic nie podejrzewający czytelnik, chcęcy podzielić się świeżo zdobytą przez siebię wiedzą, która wydaję mu się prawdziwa. W tym miejscu należy się zastanowić, dlaczego ludzie świadomię preparują informację. Najpopularniejszym powodem jest chęc uzyskania jakiś wymiernych zysków np: 
+  Intencjonalność jest bardzo istotna w tej defincji, ponieważ fałszywą infromację możę tworzyć i rozpowszechniać każdy. W pełni świadomy człowiek bądz instytucja ze ściśle wytyczonym celem, albo nic nie podejrzewający czytelnik, chcęcy podzielić się świeżo zdobytą przez siebię wiedzą, która wydaję mu się prawdziwa. W tym miejscu należy się zastanowić, dlaczego ludzie świadomię preparują informację. Najpopularniejszym powodem jest chęc uzyskania jakiś wymiernych zysków np: 
  
  - zwiększenie popularności portalu internetowego,
  - odwrócenie uwagi od niewygodnych faktów.
   
- Jednak oczywiście nie jest to jedyny powód gdyż fake news'y powstają również przez:
+  Jednak oczywiście nie jest to jedyny powód gdyż fake news'y powstają również przez:
  
  - złoścliwość (np. oczernienie człowieka),
  - chęć tworzenia zamentu dla rozrywki,
  - chęć manipulowania opinią.
  
- Szczególnie ten ostatni podpunkt spowodował bardzo duże zainteresowanie tematem fake news'ów w ostatnich latach, gdyż podczas wyborów prezydenckich w Stanach Zjednoczonych w 2016 roku. W internecie pojawiła się spora ilość nieprawdziwych artykułów na temat głównych ich kandydatów. 
+  Szczególnie ten ostatni podpunkt spowodował bardzo duże zainteresowanie tematem fake news'ów w ostatnich latach, gdy podczas wyborów prezydenckich w Stanach Zjednoczonych w 2016 roku w internecie pojawiła się spora ilość nieprawdziwych artykułów na temat głównych kandydatów. Artykuły te były proponowane ludziom o takich poglądach potlitycznych, żeby zmaksymalizować prawdopodobieństwo przyjęcia tych informacji za stan fakryczny. Skala tych działań była duża do tego stopnia, że uważa się, że mogły one zadecydować o finalnym wyniku wyborów najpotężniejszego kraju na świecię. 
+
+### Wykrywanie i łagodznie
+  Wraz z nasilającymi się wpływami fałszywych informacji w sytuację na świecie powstała potrzeba ich wykrywania i łagodzenia negatywnych skutków jakie wywołują. Istnieją różne podejścia do filtrowania fake new'sów. Oparte na analizie źródła z jakiego pochodzą (np. Informacje podane na stronach zaufanych takich jak rządowe i uniwersyteckie będą uważane za prawdziwe), na analizie danych związanych z odbiorem informacji (np. analiza komentarzy, analiza samych odbiorców), a także metody badające treść wiadomości na poziomie lingistycznym oraz merytorycznym.
+  
