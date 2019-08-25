@@ -1,4 +1,4 @@
-#Wstęp
+# Wstęp
 
   Na przestrzeni ostatnich kilkunastu lat sposób zdobywania informacji diametralnie się zmienił. Jeszcze nie dawno aby dowiedzieć się czegoś na temat aktualnych wydarzeń na świecie, człowiek włączał telewizor bądź radio, a o większych szczegółach bez gazety nawet nie było mowy. Pozatym inforamcje, które otrzymywaliśmy były wybierane przez osoby zarządzajace danym źródłem, co bardzo ograniczało odbiorcę, gdyż tematyka nie koniecznie mogła mu odpowiadać. Wiedzę naukową zdobywało się w szkołach, na uczelniach lub poprostu z odpowiedniej literatury. Jednak w raz z powstaniem internetu i bardzo intensywnym jego rozwojem, poprzednie wzorce straciły na popularności na rzecz olbrzymiej masy informacji, którą można w nim znaleźć.
 
