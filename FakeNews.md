@@ -26,6 +26,12 @@
   Wraz z nasilającymi się wpływami fałszywych informacji na sytuację na świecie, powstała potrzeba ich wykrywania i łagodzenia negatywnych skutków, jakie wywołują. Istnieją różne podejścia do filtrowania fake new'sów. Oparte na analizie źródła, z jakiego pochodzą (np. informacje podane na stronach zaufanych, takich jak rządowe i uniwersyteckie, będą uważane za prawdziwe). Na analizie danych związanych z odbiorem informacji (np. analiza komentarzy, analiza samych odbiorców), a także metody badające treść wiadomości na poziomie lingwistycznym oraz merytorycznym. Z pomocną dłonią przychodzą również prężnie rozwijające się nauki informatycznie, którę potrafią zautomatyzować i znacznie przyspieszyć weryfikację wiarygodności dokumentów, tym samym oferując wysokie prawdopodobieństwo poprawnego werdyktu. 
 
 
+# Cel pracy
+
+  Celem pracy jest zaprojektowanie i wykonanie mikroserwisu internetowego będącego w stanie weryfikować wiarygodność wysłanych przez użytkownika artykułów informacyjnych. Usługa będzie w stanie opdowiedzieć czy weryfikowany dokument posiada informację wiarygodne czy też nie. Wykorzystana do tego zostanie sieci neuronowa, wyszkolona z użyciem odpowiedniego zbioru danych.
+
+  ** *TODO: Opis rozdziałów po ich napisaniu* ** 
+
 # Wprowadzenie teorytyczne oraz zagadnienia
   
   **Analiza lingwistyczna** jest jednym z podejść, które cechują się dużą skutecznością przy wykrywaniu fake news'ów. Dzięki niej można wychwycić styl, w jakim dany dokument został napisany, wagę konkretnych słów oraz całych stwierdzeń w nim użytych, lub inne informacje charakteryzujące go na podstawie języka, z jakim został stworzony. Analiza lingwistyczna nie skupia się na tym, jaka wiadomość zostaje przekazywana do odbiorcy, lecz w jaki sposób jest do niego kierowana. Okazuję się, że jest to bardzo istotna wiedza, gdyż znaczna część fałszywych artykułów powstaje w całkiem podobnym stylu. Charakteryzują się one mocnym nacechowaniem emocjonalnym, starającym się spowodować, aby temat wywołał u odbiorcy efekt zaangażowania, przez co będzie on bardziej podatny na uznanie artykułu za prawdziwy. Krzykliwy styl, odciągający czytelnika od braku argumentów merytorycznych, jest łatwy do wykrycia. Wynika to z tego, że częstotliwość silnie nacechowanych przymiotników występująch w takim tekście będzie dużo większa niż w dokumencie zachowującym merytoryczność. Kolejnym aspektem, który sprawia, że analiza ta jest bardzo użyteczna, jest fakt, że dane powstałe przy jej stosowaniu są idealne do wykorzystania podczas nauczania maszynowego z użyciem sieci neuronowych. Z kolei to pozwala na automatyzację procedury wykrywania fake news'ów. 
@@ -33,3 +39,5 @@
 ### Sieci neuronowe
 
 > **Sztuczna sieć neuronowa** to składająca się z elementów przetwarzających struktura matematyczna inspirowana biologiczną siecią neuronową występującą w mózgu. Model ten jest w stanie przetwarzać sygnały lub prowadzić obliczenia. Sztuczne sieci neuronowe są w stanie "uczyć się" wykonywania zadań poprzez analizę dawanych im podczas procedury nauczania przykładów (np.: rozpoznawanie twarzy na zdjęciach).
+
+  Model ten bardzo dobrze nadaję się do weryfikowania fałszywych artykułów. Jego zadaniem byłoby wówczas znaleźć zależności, wpływających na to, że dany dokument posiada nieprawdziwe wiadomości. Do tego potrzeby jest odpowiedny zbiór danych, zapewniający wystarczającą ilość próbek szkoleniowych. Dane te powinny być przygotowane tak aby jak najbardziej ułatwić sieci znalezienie szukanych relacji (ze względu na "naturę" sieci neuronowych najlepiej przedstawiać dane w formie sygnału).
