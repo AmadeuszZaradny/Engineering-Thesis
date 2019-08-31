@@ -46,12 +46,16 @@
 
 > **Perceptronem** nazywamy najprostszą sieć neuronową, która jest algorytmem dla nauczania nadzorowanego z rodzaju klasyfikatorów binarnych. Oznacza to, że potrafi on ocenić, czy wejście w postaci wektora należy do jakiejś specyficznej klasy, czy też nie (np.: odróżnienie liczb parzystych od nieparzystych).
 
-> **Neuron McCullocha-Pittsa** (Rysunek 1) to jeden z matematycznych modeli sztucznego neuronu. Posiada on jedno wyjście,  natomiast wiele wejść. Do każdego wejścia jest przypisana jego waga, czyli liczba rzeczywista. Na wyjściu podawana jest wartość funkcji aktywacji dla sumy ważonej wejść.
+> **Neuron McCullocha-Pittsa** (Rysunek 1.1) to jeden z matematycznych modeli sztucznego neuronu. Posiada on jedno wyjście,  natomiast wiele wejść. Do każdego wejścia jest przypisana jego waga, czyli liczba rzeczywista. Na wyjściu podawana jest wartość funkcji aktywacji dla sumy ważonej wejść.
 
 ![Neuron McCullocha-Pittsa](https://upload.wikimedia.org/wikipedia/commons/2/24/Neuron_McCullocha-Pittsa.svg) 
 **Rysunek 1.1** - Perceptron składający się z jednego neuronu McCullocha-Pittsa
  
-> **Funkcja aktywacji** to fukcja definiująca wyjście w sieci neuronowej, może to być np. sigmoida.
+> **Funkcja aktywacji** to fukcja definiująca wyjście w sieci neuronowej, może to być np. sigmoida (Rysunek 1.2).
 
 ![Sigmoida](https://upload.wikimedia.org/wikipedia/commons/8/88/Logistic-curve.svg) 
 **Rysunek 1.2** - Sigmoida
+
+### Podobne rozwiązania
+
+  Istnieje wiele rozwiązań wykrywania fake news'ów bazujących na analizie lingiwstycznej oraz nauczaniu maszynowym. Jednak, szczególnie w kontekście założeń pracy, warto przytoczyć wykonane przez Aarona Edella API (*z ang. Application Programming Interface*), pozwalające na wysyłanie zapytań o weryfikację artykułu. Projekt nazywa się "Fakebox" i oferuje skuteczność na poziomie 95%. Jest to bardzo wysoki wynik uzyskany dzięki połączeniu kilku metod. Aaron postanowił badać nie tylko treść artykułów, ale również ich tytuł oraz URL (*z ang. Uniform Resource Locator*), czyli źródło. Unikatowe w podejściu twórcy jest także to, że nie skupia się on, de facto, na detekcji fałszywych informacji, ale na znajdowaniu tych prawdziwych. Dopiero dopełnienie ich zbioru jest uznawane za nieprawdziwe. Okazało się, że dzięki takiemu rozwiązaniu wykrywalność wrosła z 70% do wcześniej wspomnianych 95%.
