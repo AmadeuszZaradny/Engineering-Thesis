@@ -6,7 +6,7 @@
 
 ### Fake News
 
-> Fake news'em nazywamy każdy fałszywy artykuł lub informację rozpowszechnianą w mediach, bez względu na intencję jej powstania.
+> **Fake news'em** nazywamy każdy fałszywy artykuł lub informację rozpowszechnianą w mediach, bez względu na intencję jej powstania.
   
   Intencjonalność jest bardzo istotna w tej defincji, ponieważ fałszywą infromację możę tworzyć i rozpowszechniać każdy. Może dokonać tego w pełni świadomy człowiek, bądź instytucja ze ściśle wytyczonym celem. Jednak może być to również nic nie podejrzewający czytelnik, chcący podzielić się świeżo zdobytą przez siebię wiedzą, która wydaję mu się prawdziwa. W związku z tym należy się zastanowić, dlaczego ludzie świadomie preparują informacje. Najpopularniejszym powodem jest chęć uzyskania pewnych wymiernych zysków np.: 
  
@@ -28,7 +28,7 @@
 
 # Cel pracy
 
-  Celem pracy jest zaprojektowanie i wykonanie mikroserwisu internetowego będącego w stanie weryfikować wiarygodność wysłanych przez użytkownika artykułów informacyjnych. Usługa będzie w stanie opdowiedzieć czy weryfikowany dokument posiada informację wiarygodne czy też nie. Wykorzystana do tego zostanie sieci neuronowa, wyszkolona z użyciem odpowiedniego zbioru danych.
+  Celem pracy jest zaprojektowanie i wykonanie mikroserwisu internetowego, będącego w stanie weryfikować wiarygodność wysłanych przez użytkownika artykułów informacyjnych. Usługa będzie w stanie opdowiedzieć, czy weryfikowany dokument posiada informacje wiarygodne, czy też nie. Wykorzystana do tego zostanie sieć neuronowa, wyszkolona z użyciem odpowiedniego zbioru danych.
 
   ** *TODO: Opis rozdziałów po ich napisaniu* ** 
 
@@ -40,4 +40,18 @@
 
 > **Sztuczna sieć neuronowa** to składająca się z elementów przetwarzających struktura matematyczna inspirowana biologiczną siecią neuronową występującą w mózgu. Model ten jest w stanie przetwarzać sygnały lub prowadzić obliczenia. Sztuczne sieci neuronowe są w stanie "uczyć się" wykonywania zadań poprzez analizę dawanych im podczas procedury nauczania przykładów (np.: rozpoznawanie twarzy na zdjęciach).
 
-  Model ten bardzo dobrze nadaję się do weryfikowania fałszywych artykułów. Jego zadaniem byłoby wówczas znaleźć zależności, wpływających na to, że dany dokument posiada nieprawdziwe wiadomości. Do tego potrzeby jest odpowiedny zbiór danych, zapewniający wystarczającą ilość próbek szkoleniowych. Dane te powinny być przygotowane tak aby jak najbardziej ułatwić sieci znalezienie szukanych relacji (ze względu na "naturę" sieci neuronowych najlepiej przedstawiać dane w formie sygnału).
+  Model ten bardzo dobrze nadaję się do weryfikowania fałszywych artykułów. Jego zadaniem byłoby wówczas znalezienie zależności, wpływających na to, że dany dokument posiada nieprawdziwe wiadomości. Do tego potrzebny jest odpowiedny zbiór danych, zapewniający wystarczającą ilość próbek szkoleniowych. Dane te powinny być przygotowane tak, aby jak najbardziej ułatwić sieci znalezienie szukanych relacji (ze względu na "naturę" sieci neuronowych najlepiej przedstawiać dane w formie sygnału).
+
+### Perceptron
+
+> **Perceptronem** nazywamy najprostszą sieć neuronową, która jest algorytmem dla nauczania nadzorowanego z rodzaju klasyfikatorów binarnych. Oznacza to, że potrafi on ocenić, czy wejście w postaci wektora należy do jakiejś specyficznej klasy, czy też nie (np.: odróżnienie liczb parzystych od nieparzystych).
+
+> **Neuron McCullocha-Pittsa** (Rysunek 1) to jeden z matematycznych modeli sztucznego neuronu. Posiada on jedno wyjście,  natomiast wiele wejść. Do każdego wejścia jest przypisana jego waga, czyli liczba rzeczywista. Na wyjściu podawana jest wartość funkcji aktywacji dla sumy ważonej wejść.
+
+![Neuron McCullocha-Pittsa](https://upload.wikimedia.org/wikipedia/commons/2/24/Neuron_McCullocha-Pittsa.svg) 
+**Rysunek 1.1** - Perceptron składający się z jednego neuronu McCullocha-Pittsa
+ 
+> **Funkcja aktywacji** to fukcja definiująca wyjście w sieci neuronowej, może to być np. sigmoida.
+
+![Sigmoida](https://upload.wikimedia.org/wikipedia/commons/8/88/Logistic-curve.svg) 
+**Rysunek 1.2** - Sigmoida
