@@ -6,38 +6,63 @@
 
 ### Fake News
 
-> Fake news'em nazywamy każdy fałszywy artykuł lub informację rozpowszechnianą w mediach, bez względu na intencję jej powstania.
+> **Fake news'em** nazywamy każdy fałszywy artykuł lub informację rozpowszechnianą w mediach, bez względu na intencję jej powstania.
   
-  Intencjonalność jest bardzo istotna w tej defincji, ponieważ fałszywą infromację możę tworzyć i rozpowszechniać każdy. Może dokonać tego w pełni świadomy człowiek, bądź instytucja ze ściśle wytyczonym celem. Jednak może być to również nic nie podejrzewający czytelnik, chcący podzielić się świeżo zdobytą przez siebię wiedzą, która wydaję mu się prawdziwa. W związku z tym należy się zastanowić, dlaczego ludzie świadomie preparują informacje. Najpopularniejszym powodem jest chęć uzyskania pewnych wymiernych zysków np.: 
+  Brak intencjonalność jest bardzo istotny w tej defincji, ponieważ fałszywą informację może tworzyć i rozpowszechniać każdy. Może dokonać tego w pełni świadomy człowiek, bądź instytucja ze ściśle wytyczonym celem. Jednak może być to również nic nie podejrzewający czytelnik, chcący podzielić się świeżo zdobytą przez siebie wiedzą, która wydaję mu się prawdziwa. W związku z tym należy się zastanowić, dlaczego ludzie świadomie preparują informacje. Najpopularniejszym powodem jest chęć uzyskania pewnych wymiernych korzyści np.: 
  
  - zwiększenie popularności portalu internetowego skutkujące wzrostem dochodów,
  - odwrócenie uwagi od niewygodnych faktów.
   
   Jednak oczywiście nie jest to jedyny powód, gdyż fake news'y powstają również przez:
  
- - złoścliwość (np. oczernienie człowieka),
+ - złośliwość (np. oczernienie człowieka),
  - chęć tworzenia zamentu dla rozrywki,
  - chęć manipulowania opinią.
  
   Szczególnie ten ostatni podpunkt spowodował bardzo duże zainteresowanie tematem fake news'ów w ostatnich latach. Podczas wyborów prezydenckich w Stanach Zjednoczonych w 2016 roku w internecie pojawiła się znaczna ilość nieprawdziwych artykułów na temat głównych kandydatów. Artykuły te były proponowane ludziom o takich poglądach potlitycznych, żeby zmaksymalizować prawdopodobieństwo przyjęcia tych informacji za stan faktyczny. Skala tych działań była duża do tego stopnia, że uważa się, że mogły one zadecydować o finalnym wyniku wyborów najpotężniejszego kraju na świecie. 
+  
+  Znaczny wpływ na tworzenie i rozpowszechnianie fałszywych informacji ma również ludzka ignorancja. Brak oczytania w danym temacie, naiwność, a także chęć wiary w zgodne z własnymi poglądami pogłoski, często powodują brak akceptacji merytorycznych argumentów i odrzucanie faktów. Takie wewnętrzne wyparcie prawdy może skutować powstaniem całkowicie nieracjonalnych nurtów i teorii spiskowych, takich jak np.: ruch antyszczepionkowy, czy wiara w "płaską Ziemię". Niefortunne w tym przypadku jest również to, że osoby rozpowszechniające takie wiadomości robią to z większą częstotliwością niż wiarygodne źródła. Skutkuje to tym, że ilość fałszywych informacji w danym temacie może być znacznie wieksza niż tych prawdziwych. W takim zbiorze danych łatwiej jest natrafić na mylące artykuły, co powoduje potencjalnie większą liczbę ich odbiorców.
 
 ### Wykrywanie i łagodznie
 
-  Wraz z nasilającymi się wpływami fałszywych informacji na sytuację na świecie, powstała potrzeba ich wykrywania i łagodzenia negatywnych skutków, jakie wywołują. Istnieją różne podejścia do filtrowania fake new'sów. Oparte na analizie źródła, z jakiego pochodzą (np. informacje podane na stronach zaufanych, takich jak rządowe i uniwersyteckie, będą uważane za prawdziwe). Na analizie danych związanych z odbiorem informacji (np. analiza komentarzy, analiza samych odbiorców), a także metody badające treść wiadomości na poziomie lingwistycznym oraz merytorycznym. Z pomocną dłonią przychodzą również prężnie rozwijające się nauki informatycznie, którę potrafią zautomatyzować i znacznie przyspieszyć weryfikację wiarygodności dokumentów, tym samym oferując wysokie prawdopodobieństwo poprawnego werdyktu. 
+  Wraz z nasilającymi się wpływami fałszywych informacji na sytuację na świecie, powstała potrzeba ich wykrywania i łagodzenia negatywnych skutków, jakie wywołują. Istnieją różne podejścia do filtrowania fake new'sów. Jednym z podstawowych sposobów są metody manualne, to znaczy oparte na weryfikacji ludzkiej. Powstały strony internetowe takie jak *www.politifact.com*, które oferują sprawdzanie wiarygodności artykułów. Dzięki pracy profesjonalistów otrzymana informacja zwrotna jest wysoce konstruktywna. Jednak człowiek nie jest tak wydajny jak komputer i często na wynik takiej weryfikacji trzeba czekać stosunkowo długo. Tu z pomocną dłonią przychodzą prężnie rozwijające się nauki informatyczne, którę potrafią zautomatyzować i znacznie przyspieszyć weryfikację wiarygodności dokumentów, tym samym oferując wysokie prawdopodobieństwo poprawnego werdyktu. 
+  Jednym z automatycznych podejść jest algorytm PageRank, bazujący na analizie źródła, z jakiego pochodzą wiadomości. Algorytm wykorzystuje powiązania między stronami internetowymi, dzięki którym można zbadać ich jakość (np. Informacje podane na stronach zaufanych, takich jak rządowe i uniwersyteckie, będą uważane za prawdziwe. Strony, którę są często linkowane przez zaufane portale, również będą ocenione jako źródło wysokiej jakości). Do automatyzacji doskonale nadają się również metody oparte na analizie treści dokumentów. Można obliczyć podobieństwo między jednym artykułem, a innym wcześniej już zweryfikowanym i na podstawie tego dokonać oceny wiarygodności.
 
 
 # Cel pracy
 
-  Celem pracy jest zaprojektowanie i wykonanie mikroserwisu internetowego będącego w stanie weryfikować wiarygodność wysłanych przez użytkownika artykułów informacyjnych. Usługa będzie w stanie opdowiedzieć czy weryfikowany dokument posiada informację wiarygodne czy też nie. Wykorzystana do tego zostanie sieci neuronowa, wyszkolona z użyciem odpowiedniego zbioru danych.
+  Celem pracy jest zaprojektowanie i wykonanie mikroserwisu internetowego, będącego w stanie weryfikować wiarygodność wysłanych przez użytkownika artykułów informacyjnych. Usługa będzie w stanie opdowiedzieć, czy weryfikowany dokument posiada informacje wiarygodne, czy też nie. Wykorzystana do tego zostanie sieć neuronowa, wyszkolona z użyciem odpowiedniego zbioru danych.
 
   ** *TODO: Opis rozdziałów po ich napisaniu* ** 
 
 # Wprowadzenie teorytyczne oraz zagadnienia
   
-  **Analiza lingwistyczna** jest jednym z podejść, które cechują się dużą skutecznością przy wykrywaniu fake news'ów. Dzięki niej można wychwycić styl, w jakim dany dokument został napisany, wagę konkretnych słów oraz całych stwierdzeń w nim użytych, lub inne informacje charakteryzujące go na podstawie języka, z jakim został stworzony. Analiza lingwistyczna nie skupia się na tym, jaka wiadomość zostaje przekazywana do odbiorcy, lecz w jaki sposób jest do niego kierowana. Okazuję się, że jest to bardzo istotna wiedza, gdyż znaczna część fałszywych artykułów powstaje w całkiem podobnym stylu. Charakteryzują się one mocnym nacechowaniem emocjonalnym, starającym się spowodować, aby temat wywołał u odbiorcy efekt zaangażowania, przez co będzie on bardziej podatny na uznanie artykułu za prawdziwy. Krzykliwy styl, odciągający czytelnika od braku argumentów merytorycznych, jest łatwy do wykrycia. Wynika to z tego, że częstotliwość silnie nacechowanych przymiotników występująch w takim tekście będzie dużo większa niż w dokumencie zachowującym merytoryczność. Kolejnym aspektem, który sprawia, że analiza ta jest bardzo użyteczna, jest fakt, że dane powstałe przy jej stosowaniu są idealne do wykorzystania podczas nauczania maszynowego z użyciem sieci neuronowych. Z kolei to pozwala na automatyzację procedury wykrywania fake news'ów. 
+  **Analiza lingwistyczna** jest jednym z podejść, które cechuje się dużą skutecznością przy wykrywaniu fake news'ów. Dzięki niej można wychwycić styl, w jakim dany dokument został napisany, wagę konkretnych słów oraz całych stwierdzeń w nim użytych, lub inne informacje charakteryzujące go na podstawie języka, w jakim został stworzony. Analiza lingwistyczna nie skupia się na tym, jaka wiadomość zostaje przekazywana do odbiorcy, lecz w jaki sposób jest do niego kierowana. Okazuje się, że jest to bardzo istotna wiedza, gdyż znaczna część fałszywych artykułów powstaje w całkiem podobnym stylu. Charakteryzują się one mocnym nacechowaniem emocjonalnym, starającym się spowodować, aby temat wywołał u odbiorcy efekt zaangażowania, przez co będzie on bardziej podatny na uznanie artykułu za prawdziwy. Krzykliwy styl, odciągający czytelnika od braku argumentów merytorycznych, jest łatwy do wykrycia. Wynika to z tego, że częstotliwość silnie nacechowanych przymiotników występująch w takim tekście będzie dużo większa niż w dokumencie zachowującym merytoryczność. Kolejnym aspektem, który sprawia, że analiza ta jest bardzo użyteczna, jest fakt, że dane powstałe przy jej stosowaniu są idealne do wykorzystania podczas nauczania maszynowego z użyciem sieci neuronowych. Z kolei to pozwala na automatyzację procedury wykrywania fake news'ów. 
 
 ### Sieci neuronowe
 
+** *TODO: Dokładne wprowadzenie gdy będą już znane komponenty* **
+
 > **Sztuczna sieć neuronowa** to składająca się z elementów przetwarzających struktura matematyczna inspirowana biologiczną siecią neuronową występującą w mózgu. Model ten jest w stanie przetwarzać sygnały lub prowadzić obliczenia. Sztuczne sieci neuronowe są w stanie "uczyć się" wykonywania zadań poprzez analizę dawanych im podczas procedury nauczania przykładów (np.: rozpoznawanie twarzy na zdjęciach).
 
-  Model ten bardzo dobrze nadaję się do weryfikowania fałszywych artykułów. Jego zadaniem byłoby wówczas znaleźć zależności, wpływających na to, że dany dokument posiada nieprawdziwe wiadomości. Do tego potrzeby jest odpowiedny zbiór danych, zapewniający wystarczającą ilość próbek szkoleniowych. Dane te powinny być przygotowane tak aby jak najbardziej ułatwić sieci znalezienie szukanych relacji (ze względu na "naturę" sieci neuronowych najlepiej przedstawiać dane w formie sygnału).
+  Model ten bardzo dobrze nadaję się do weryfikowania fałszywych artykułów. Jego zadaniem byłoby wówczas znalezienie zależności wpływających na to, że dany dokument posiada nieprawdziwe wiadomości. Do tego potrzebny jest odpowiedni zbiór danych, zapewniający wystarczającą ilość próbek szkoleniowych. Dane te powinny być przygotowane tak, aby jak najbardziej ułatwić sieci znalezienie szukanych relacji (ze względu na "naturę" sieci neuronowych najlepiej przedstawiać dane w formie sygnału).
+
+### Perceptron
+
+> **Perceptronem** nazywamy najprostszą sieć neuronową, która jest algorytmem dla nauczania nadzorowanego z rodzaju klasyfikatorów binarnych. Oznacza to, że potrafi on ocenić, czy wejście w postaci wektora należy do jakiejś specyficznej klasy, czy też nie (np.: odróżnienie liczb parzystych od nieparzystych).
+
+> **Neuron McCullocha-Pittsa** (Rysunek 1.1) to jeden z matematycznych modeli sztucznego neuronu. Posiada on jedno wyjście,  natomiast wiele wejść. Do każdego wejścia jest przypisana jego waga, czyli liczba rzeczywista. Na wyjściu podawana jest wartość funkcji aktywacji dla sumy ważonej wejść.
+
+![Neuron McCullocha-Pittsa](https://upload.wikimedia.org/wikipedia/commons/2/24/Neuron_McCullocha-Pittsa.svg) 
+**Rysunek 1.1** - Perceptron składający się z jednego neuronu McCullocha-Pittsa
+ 
+> **Funkcja aktywacji** to fukcja definiująca wyjście w sieci neuronowej, może to być np. sigmoida (Rysunek 1.2).
+
+![Sigmoida](https://upload.wikimedia.org/wikipedia/commons/8/88/Logistic-curve.svg) 
+**Rysunek 1.2** - Sigmoida
+
+### Podobne rozwiązania
+
+  Istnieje wiele rozwiązań wykrywania fake news'ów bazujących na analizie lingiwstycznej oraz nauczaniu maszynowym. Jednak, szczególnie w kontekście założeń pracy, warto przytoczyć wykonane przez Aarona Edella API (*z ang. Application Programming Interface*), korzystające w wyszkolonej sieci neuronowej. Pozwala ono na wysyłanie zapytań o weryfikację artykułu. Projekt nazywa się "Fakebox" i oferuje skuteczność na poziomie 95%. Jest to bardzo wysoki wynik uzyskany dzięki połączeniu kilku metod. Aaron postanowił badać nie tylko treść artykułów, ale również ich tytuł oraz URL (*z ang. Uniform Resource Locator*), czyli źródło. Unikatowe w podejściu twórcy jest także to, że nie skupia się on, de facto, na detekcji fałszywych informacji, ale na znajdowaniu tych prawdziwych. Dopiero dopełnienie ich zbioru jest uznawane za nieprawdziwe. Okazało się, że dzięki takiemu rozwiązaniu wykrywalność wrosła z 70% do wcześniej wspomnianych 95%. 
+
+  Innym, wartym przywołania, automatycznym rozwiązaniem bazującym na analizie lingwistycznej jest projekt stworzony przez Jacopo Notarstefano o nazwie "Stop the bullshit". Francuski programista postanowił zmieniać formę weryfikowanych dokumentów tak, aby zostawiać w nich jak największą ilość znaczących informacji. Są z nich usuwane cyfry, znaki interpunkcyjne oraz słowa nic nie znaczące, takie jak np. spójniki. Po tej operacji dokument jest traktowany jako zbiór słów. Dzięki temu można zbadać podobieństwo między artykułami obliczając odległość Jaccarda, która jest stosunkiem części wspólnej do sumy zbiorów. Podobne dokumenty są grupowane, a konkretne grupy w większości reprezentują ten sam rodzaj informacji (np. fałszywe). Wraz z rozszerzaniem bazy dokumentów, weryfikacja jest bardziej trafna, gdyż zwiększa się różnorodność grup. Wadą tego rozwiązania jest potrzeba dużego zbioru początkowego tak, aby łatwo było przydzielić konkretną frakcję dla badanego artykułu oraz dużą ilość porównań przy każdej weryfikacji.
